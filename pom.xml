@@ -32,7 +32,7 @@
 
 	<modules>
 		<module>etudes-util</module>
-		<module>ltiContent</module>
+		<module>ltiContact</module>
 		<module>ambrosia</module>
 	</modules>
 
