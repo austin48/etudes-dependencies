@@ -608,7 +608,7 @@ public class UiFillIn extends UiComponent implements FillIn
 			String failureMsg = (boxCount > 1) ? this.validationPluralMsg.getMessage(context, focus) : this.validationMsg.getMessage(context, focus);
 
 			// validate failure alert (will display:inline when made visible)
-			response.print("<div style=\"display:none\" id=\"invalid_" + id + "\">");
+			response.print("<div style=\"display:none;color:red\" id=\"invalid_" + id + "\">");
 			response.print("<img style=\"vertical-align:text-bottom; border-style: none;\" src=\"" + context.getUrl(this.invalidIcon) + "\" />");
 			response.print(" "+failureMsg + "</div>");
 
@@ -622,7 +622,7 @@ public class UiFillIn extends UiComponent implements FillIn
 					focus);
 
 			// validate failure alert (will display:inline when made visible)
-			response.print("<div style=\"display:none\" id=\"invalid_" + id + "\">");
+			response.print("<div style=\"display:none;color:red\" id=\"invalid_" + id + "\">");
 			response.print("<img style=\"vertical-align:text-bottom; border-style: none;\" src=\"" + context.getUrl(this.invalidIcon) + "\" />");
 			response.print(" "+failureMsg + "</div>");
 
