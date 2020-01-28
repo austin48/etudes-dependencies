@@ -262,9 +262,9 @@ public class UiFileUpload extends UiComponent implements FileUpload
 								+ "title=\""
 								+ description
 								+ "\" "
-								+ (((this.icon != null) && (this.iconStyle == IconStyle.left)) ? "style=\"padding-left:2em; background-image: url('"
+								+ (((this.icon != null) && (this.iconStyle == IconStyle.left)) ? "style=\"color:#fff; background-color:#15597e; padding-left:2em; background-image: url('"
 										+ context.getUrl(this.icon) + "'); background-position: .2em; background-repeat: no-repeat;\"" : "")
-								+ (((this.icon != null) && (this.iconStyle == IconStyle.right)) ? "style=\"padding-left:.4em; padding-right:2em; background-image: url('"
+								+ (((this.icon != null) && (this.iconStyle == IconStyle.right)) ? "style=\"color:#fff; background-color:#15597e; padding-left:.4em; padding-right:2em; background-image: url('"
 										+ context.getUrl(this.icon) + "'); background-position: right; background-repeat: no-repeat;\""
 										: "") + "/>");
 
