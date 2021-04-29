@@ -270,7 +270,7 @@ public class UiIconKey extends UiComponent implements IconKey
 				// Note: since the description follows, don't put it on the icon as well.
 				if (icon != null)
 				{
-					response.print("<img src=\"" + context.getUrl(icon) + "\" style=\"border-style: none;\" title=\"\" alt=\"\" />");
+					response.print("<img src=\"" + context.getUrl(icon) + "\" style=\"border-style: none;max-width: none;\" title=\"\" alt=\"\" />");
 				}
 
 				response.print("</td><td>");
